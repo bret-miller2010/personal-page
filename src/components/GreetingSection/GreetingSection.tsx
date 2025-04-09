@@ -34,7 +34,15 @@ function GreetingSection() {
                     alt="A photo of myself"
                 />
             </div>
-            <p className="font-bold text-4xl text-center">Skilled in React and modern web technologies, I create intuitive,<br/>maintainable interfaces that drive user engagement and business impact.</p>
+            <p className="text-4xl text-center text-gray-400">
+                Skilled in{" "}
+                <span className="text-gray-700">
+                    <span className="font-bold">React</span> <span className="text-gray-400">and</span> modern web technologies
+                </span>
+                , I create <span className="text-gray-700">intuitive</span>,
+                <br />
+                <span className="text-gray-700">maintainable interfaces</span> that drive <span className="text-gray-700 font-bold">user engagement and business impact</span>.
+            </p>
         </div>
     );
 }
