@@ -5,7 +5,6 @@ import GreetingSection from "@/components/GreetingSection/GreetingSection";
 import AboutSection from "@/components/AboutSection/AboutSection";
 import WorkSection from "@/components/WorkSection/WorkSection";
 import ProjectSection from "@/components/ProjectSection/ProjectSection";
-import ContactSection from "@/components/ContactSection/ContactSection";
 import ResumeSection from "../components/ResumeSection/ResumeSection";
 
 export default function Home() {
