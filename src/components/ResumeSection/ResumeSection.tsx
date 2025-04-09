@@ -1,30 +1,34 @@
 /** @format */
 "use client";
+import Image from "next/image";
 
 import Link from "next/link";
 
 export default function ResumeSection() {
     return (
-        <div className="flex space-x-10">
+        <div className="flex space-x-20 mt-5">
             <Link href="/documents/BretMiller_resume_2025.docx">
-                <img
+                <Image
                     src="https://img.icons8.com/?size=100&id=23877&format=png&color=000000"
+                    width={40}
+                    height={40}
                     alt="resume"
-                    className="w-16 h-16 mb-2"
                 />
             </Link>
             <Link href="https://github.com/bret-miller2010">
-                <img
+                <Image
                     src="https://img.icons8.com/?size=100&id=12598&format=png&color=000000"
-                    alt="github"
-                    className="w-16 h-16 mb-2"
+                    width={40}
+                    height={40}
+                    alt="resume"
                 />
             </Link>
             <Link href="https://www.linkedin.com/in/bretmiller2010/">
-                <img
+                <Image
                     src="https://img.icons8.com/?size=100&id=447&format=png&color=000000"
-                    alt="linkedin"
-                    className="w-16 h-16 mb-2"
+                    width={40}
+                    height={40}
+                    alt="resume"
                 />
             </Link>
         </div>

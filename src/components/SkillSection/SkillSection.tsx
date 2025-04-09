@@ -4,8 +4,8 @@ import SkillIcon from "@/components/SkillSection/SkillIcon";
 
 function SkillSection() {
     return (
-        <div className="w-full text-center mt-20">
-            <div className="grid grid-cols-4 grid-rows-2 gap-4 w-1/2 mx-auto">
+        <div className="w-1/2 text-center border-3 bg-blue-200 border-black p-5 rounded-lg">
+            <div className="grid grid-cols-4 grid-rows-2 gap-4">
                 <SkillIcon
                     skill="React"
                     image="https://img.icons8.com/?size=100&id=122637&format=png&color=000000"
